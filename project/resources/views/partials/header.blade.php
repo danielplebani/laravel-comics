@@ -18,16 +18,25 @@
         </div>
 
         <div style="height: 100%;" class="col d-flex justify-content-end">
-            <a class="nav-item nav-link" href="/">CHARACTERS</a>
-            <a class="nav-item nav-link active">COMICS</a>
-            <a class="nav-item nav-link">MOVIES</a>
-            <a class="nav-item nav-link">TV</a>
-            <a class="nav-item nav-link">GAMES</a>
-            <a class="nav-item nav-link">COLLECTIBLES</a>
-            <a class="nav-item nav-link">VIDEOS</a>
-            <a class="nav-item nav-link">FANS</a>
-            <a class="nav-item nav-link">NEWS</a>
-            <a class="nav-item nav-link">SHOP</a>
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'characters' ? 'active' : '' }}" href="{{route('characters')}}">CHARACTERS</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{route('comics')}}">COMICS</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'movies' ? 'active' : '' }}" href="{{route('movies')}}">MOVIES</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'tv' ? 'active' : '' }}" href="{{route('tv')}}">TV</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'games' ? 'active' : '' }}" href="{{route('games')}}">GAMES</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}" href="{{route('collectibles')}}">COLLECTIBLES</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'videos' ? 'active' : '' }}" href="{{route('videos')}}">VIDEOS</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'fans' ? 'active' : '' }}" href="{{route('fans')}}">FANS</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'news' ? 'active' : '' }}" href="{{route('news')}}">NEWS</a>
+
+            <a class="nav-item nav-link {{ Route::currentRouteName() === 'shop' ? 'active' : '' }}" href="{{route('shop')}}">SHOP</a>
         </div>
     </div>
 </header>
