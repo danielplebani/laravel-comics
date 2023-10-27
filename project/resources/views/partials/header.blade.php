@@ -18,7 +18,7 @@
         </div>
 
         <div style="height: 100%;" class="col d-flex justify-content-end">
-            <a class="nav-item nav-link">CHARACTERS</a>
+            <a class="nav-item nav-link" href="/">CHARACTERS</a>
             <a class="nav-item nav-link active">COMICS</a>
             <a class="nav-item nav-link">MOVIES</a>
             <a class="nav-item nav-link">TV</a>

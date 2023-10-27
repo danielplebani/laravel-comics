@@ -99,37 +99,3 @@
     </section>
 </main>
 @endsection
-
-
-
-{{--
-<!-- <section id="app_hero">
-    <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
-</section>
-
-
-
-<section id="product_list" class="container">
-    <div class="container">
-        <div class="title">current series</div>
-    </div>
-
-    <div class="row px-3">
-
-        @forelse($products as $product)
-        <div class="col-2 g-4">
-            <div id="product" class="h-100">
-                <img class="img-fluid" src="{{ $product['thumb']}}" alt="">
-                <h6>{{ $product['title'] }}</h6>
-            </div>
-        </div>
-        @empty
-
-        @endforelse
-
-    </div>
-
-    <div class="more d-flex justify-content-center align-items-center pt-3">
-        <a class="btn btn-primary rounded-0 text-light text-uppercase">load more</a>
-    </div>
-</section> -->--}}
