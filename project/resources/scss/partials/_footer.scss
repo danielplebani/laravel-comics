@@ -1,5 +1,25 @@
 @use "./color" as *;
 
+#main_body {
+    background-image: url(../img/footer-bg.jpg);
+    padding: 0 calc(35% / 2);
+
+    .logo {
+        background-image: url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 450px;
+    }
+
+    a {
+        color: gray;
+        text-decoration: none;
+        font-size: x-small;
+        margin-bottom: 3px;
+    }
+}
+
+
 #footer {
     background-color: $dc_dark_soft;
     padding: 0 calc(35% / 2);

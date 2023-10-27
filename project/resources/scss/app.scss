@@ -40,6 +40,10 @@
                     flex-direction: column;
                     margin: 1rem 0;
 
+                    a{
+                        text-decoration: none;
+                    }
+
                     p {
                         color: white;
                         font-size: x-small;
@@ -65,25 +69,6 @@
                 text-align: center;
                 margin: auto;
             }
-        }
-    }
-
-    #main_body {
-        background-image: url(../img/footer-bg.jpg);
-        padding: 0 calc(35% / 2);
-
-        .logo {
-            background-image: url(../img/dc-logo-bg.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 450px;
-        }
-
-        a {
-            color: gray;
-            text-decoration: none;
-            font-size: x-small;
-            margin-bottom: 3px;
         }
     }
 

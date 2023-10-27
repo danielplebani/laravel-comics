@@ -11,19 +11,14 @@
             <div class="container d-flex flex-wrap justify-content-around">
                 @foreach ($products as $product)
                 <div class="product">
-                    <img src="{{$product['thumb']}}">
-                    <p>{{$product['title']}}</p>
+                    <a href="{{route('comic')}}"><img src="{{$product['thumb']}}"></a>
+                    <a href="{{route('comic')}}"><p>{{$product['title']}}</p></a>
                 </div>
                 @endforeach
                 <button><strong>LOAD MORE</strong></button>
             </div>
         </div>
     </section>
-
-
-
-
-
 
     <section id="main_card" class="py-4">
         <div class="d-flex align-items-center">
@@ -46,54 +41,6 @@
             <div class="col d-flex justify-content-center">
                 <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" class="me-2">
                 <span>DC POWER VISA</span>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section id="main_body">
-        <div class="d-flex text-white">
-            <div class="col d-flex justify-content-start">
-                <div class="col-3 d-flex flex-column">
-                    <span class="my-2"><strong>DC COMICS</strong></span>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <span class="my-2"><strong>SHOP</strong></span>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                </div>
-
-                <div class="col-3 d-flex flex-column">
-                    <span class="my-2"><strong>DC</strong></span>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                </div>
-
-                <div class="col-3 d-flex flex-column">
-                    <span class="my-2"><strong>SITES</strong></span>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                    <a href="#">element</a>
-                </div>
-            </div>
-
-            <div class="col logo">
             </div>
         </div>
     </section>

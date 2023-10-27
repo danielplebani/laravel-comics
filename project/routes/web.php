@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/comics', function () {
+Route::get('/', function () {
     $products = config('comics');
 
     return view('comics', compact('products'));
@@ -54,3 +54,7 @@ Route::get('/fans', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('/comic', function () {
+    return view('comic');
+})->name('comic');
